@@ -1,0 +1,96 @@
+.microblogger-container {
+    border:1px solid black;
+    height: 800px;
+    margin: 2% 25%;
+    transition:all 1s ease;
+    .message {
+        margin: 0 10px;
+        text-align: center;
+        font-size: 18px;
+        background: red;
+    }
+    .scrollable-container {
+        max-height: 700px;
+        margin: 5px 10px;
+        border: 1px solid black;
+        background: #ececec;
+        overflow-y: scroll;
+        .post-container {
+            transition:all 0.3s ease;
+        }
+        .post-container:hover {
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
+            background-color: black;
+            color:white;
+            border:2px solid lightblue
+        }
+    }
+}
+
+.form-container {
+    border:1px solid black;
+    height: 400px;
+    margin: 2% 25%;
+    transition:all 1s ease;
+    .header-text {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    form {
+        padding: 25px;
+        font-size: 20px;
+        font-weight: 600;
+        label {
+            margin: 10px;
+            width: 15%;
+            display: inline-block;
+            vertical-align: top;
+        }
+        input {
+            margin: 10px;
+            width: 200px;
+            border: 1px solid black;
+            height: 35px;
+            padding: 0 10px;
+        }
+        textArea {
+            margin: 10px;
+            height: 100px;
+            width: 60%;
+        }
+        button {
+            float: right;
+            background-color: white;
+            border: 2px solid green;
+            padding: 0;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            right: 20px;
+            top: 10px;
+            text-transform: uppercase;
+            text-align: center;
+            color: black;
+            margin: 0 5px;
+        }
+        button:disabled {
+            background: #dddddd;
+            border: 2px solid #bbb            
+        }
+        .button:hover {
+            border: 2px solid lightblue;
+            color: white;
+        }
+        .error-text {
+            color:red;
+            font-size: 12px;
+        }
+    }
+}
+
+.hide-container {
+    display: none;
+}

@@ -1,0 +1,35 @@
+.header-container {
+    height: 80px;
+    line-height: 80px;
+    border: 1px solid black;
+    margin: 5px 10px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    .header-label-text {
+        background-color: #615e5e;
+        font-size: 32px;
+    }
+    .header-button-text{
+        background-color: white;
+        padding: 0;
+        margin: 0;
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: black;
+        border: 2px solid green;    
+    }
+    .header-button-text:hover {
+        border: 2px solid lightblue;
+    }
+
+    
+}
